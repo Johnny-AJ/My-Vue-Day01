@@ -1,0 +1,5 @@
+let getSum = require('./getSum.js')
+require('../css/1.css')
+require('../css/2.less')
+let total = getSum(66, 20)
+document.write(total)
